@@ -95,7 +95,7 @@ body {
 	width: 100%;
 	transform: translateX(100%);
 	background: rgb(0, 212, 255);
-	background: linear-gradient(0deg, rgba(0, 212, 255, 1) 0%, rgba(23, 49, 150, 1) 0%, rgba(2, 0, 36, 1) 100%);
+	background: c.$mid-section;
 	transition: 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
 	z-index: 100;
 
