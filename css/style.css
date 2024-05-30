@@ -55,7 +55,7 @@
     font-size: 4.8rem;
   }
   .section-padding {
-    padding: 5em 2em;
+    padding: 5em 8em;
   }
 }
 *,
@@ -305,7 +305,7 @@ body {
 }
 
 .solution-box {
-  border-radius: 50px;
+  border-radius: 8px;
   font-family: "Montserrat";
   font-weight: 300;
 }
@@ -414,12 +414,10 @@ body {
   margin-top: 2em;
   margin-bottom: 0.5em;
   padding: 1em;
-  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 100%);
-}
-.product__box-left img {
-  width: 100%;
-  max-width: 1200px;
-  border-radius: 50px;
+  background-image: url("../img/TestSUBSolar14.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
 }
 .product__box-middle {
   background-image: linear-gradient(200deg, #164474 0%, #33BAAD 100%);
@@ -479,26 +477,6 @@ body {
 
 .technology {
   display: flex;
-}
-.technology .box-left {
-  width: 45%;
-  border: solid 2px red;
-  margin-right: 1em;
-}
-.technology .box-left .title1,
-.technology .box-left .title2,
-.technology .box-left .title3,
-.technology .box-left .title4,
-.technology .box-left .title5 {
-  padding: 2em 1em;
-  color: #fff;
-}
-.technology .box-right {
-  width: 45%;
-  border: solid 10px #fff;
-  margin-left: 3em;
-  background-image: url("../img/SUB Solar 120 _6.png");
-  background-size: cover;
 }
 
 .text {
@@ -575,49 +553,6 @@ body {
   .nav__items-D .nav__item-D {
     padding: 0.8em 0.8em 0.5em 0.8em;
   }
-  .solution__box {
-    margin-top: 5em;
-    display: flex;
-    margin-bottom: 8em;
-  }
-  .solution__box-left {
-    margin-bottom: 0;
-    width: 50%;
-    margin-right: 4em;
-  }
-  .solution__box-right {
-    margin-top: 0;
-    width: 50%;
-    margin-left: 4em;
-  }
-  .solution-heading {
-    margin-bottom: 0;
-  }
-  .product__box {
-    margin-top: 5em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .product__box-left {
-    margin-top: 3em;
-    margin-bottom: 0;
-  }
-  .product__box-middle {
-    margin-left: 4em;
-    margin-right: auto;
-    width: 40%;
-  }
-  .product__box-right {
-    margin-top: 0;
-    width: 40%;
-    margin-left: auto;
-    margin-right: 4em;
-  }
-  .product__box-last {
-    margin-top: 3em;
-    margin-left: auto;
-  }
 }
 @media (min-width: 768px) {
   .circles .circle {
@@ -661,7 +596,7 @@ body {
     font-size: 5.5rem;
   }
   .solution__box-left {
-    padding-top: 3em;
+    padding-top: 2em;
   }
   .solution__box-right {
     padding-left: 3em;
@@ -683,9 +618,6 @@ body {
     padding: 2em;
     margin-left: 4em;
     width: 40%;
-  }
-  .product__box-left img {
-    min-height: 548px;
   }
   .product__box-middle {
     padding: 3em;
@@ -715,6 +647,48 @@ body {
     font-size: 2.2rem;
     font-weight: 300;
     line-height: 1.5em;
+  }
+  .solution__box {
+    margin-top: 5em;
+    display: flex;
+    margin-bottom: 8em;
+  }
+  .solution__box-left {
+    margin-bottom: 0;
+    width: 50%;
+    margin-right: 4em;
+  }
+  .solution__box-right {
+    margin-top: 0;
+    width: 50%;
+    margin-left: 4em;
+  }
+  .solution-heading {
+    margin-bottom: 0;
+  }
+  .product__box {
+    margin-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product__box-left {
+    margin-top: 3em;
+    margin-bottom: 0;
+    height: 590px;
+  }
+  .product__box-middle {
+    margin-left: 4em;
+    margin-right: auto;
+  }
+  .product__box-right {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 4em;
+  }
+  .product__box-last {
+    margin-top: 3em;
+    margin-left: auto;
   }
 }
 @media (min-width: 2000px) {

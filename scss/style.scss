@@ -266,7 +266,7 @@ body {
 //SOLUTION
 
 .solution-box {
-	border-radius: 50px;
+	border-radius: 8px;
 	font-family: 'Montserrat';
 	font-weight: 300;
 }
@@ -394,13 +394,11 @@ body {
 		margin-top: 2em;
 		margin-bottom: 0.5em;
 		padding: 1em;
-		background-image: c.$mid-section;
+		background-image: url('../img/TestSUBSolar14.png');
+		background-size: cover;
+	background-position: center;
+		height: 400px;
 
-		img {
-			width: 100%;
-			max-width: 1200px;
-			border-radius: 50px;
-		}
 	}
 	&__box-middle {
 		// background-color: c.$pure-white;
@@ -468,26 +466,7 @@ body {
 }
 .technology {
 	display: flex;
-	.box-left {
-		width: 45%;
-		border: solid 2px red;
-		margin-right: 1em;
-		.title1,
-		.title2,
-		.title3,
-		.title4,
-		.title5 {
-			padding: 2em 1em;
-			color: c.$pure-white;
-		}
-	}
-	.box-right {
-		width: 45%;
-		border: solid 10px c.$pure-white;
-		margin-left: 3em;
-		background-image: url('../img/SUB\ Solar\ 120\ _6.png');
-		background-size: cover;
-	}
+	
 }
 .text {
 	margin: 2em auto;
@@ -573,55 +552,55 @@ body {
 				padding: 0.8em 0.8em 0.5em 0.8em;
 			}
 		}
-		.solution {
-			&__box {
-				margin-top: 5em;
-				display: flex;
-				margin-bottom: 8em;
-			}
-			&__box-left {
-				margin-bottom: 0;
-				width: 50%;
-				margin-right: 4em;
-			}
-			&__box-right {
-				margin-top: 0;
-				width: 50%;
-				margin-left: 4em;
-			}
-		}
-		.solution-heading {
-			margin-bottom: 0;
-		}
+	// 	.solution {
+	// 		&__box {
+	// 			margin-top: 5em;
+	// 			display: flex;
+	// 			margin-bottom: 8em;
+	// 		}
+	// 		&__box-left {
+	// 			margin-bottom: 0;
+	// 			width: 50%;
+	// 			margin-right: 4em;
+	// 		}
+	// 		&__box-right {
+	// 			margin-top: 0;
+	// 			width: 50%;
+	// 			margin-left: 4em;
+	// 		}
+	// 	}
+	// 	.solution-heading {
+	// 		margin-bottom: 0;
+	// 	}
 
-		.product {
-			&__box {
-				margin-top: 5em;
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: center;
-			}
-			&__box-left {
-				margin-top: 3em;
-				margin-bottom: 0;
-				// order: 1;
-			}
-			&__box-middle {
-				margin-left: 4em;
-				margin-right: auto;
-				width: 40%;
-			}
-			&__box-right {
-				margin-top: 0;
-				width: 40%;
-				margin-left: auto;
-				margin-right: 4em;
-			}
-			&__box-last {
-				margin-top: 3em;
-				margin-left: auto;
-			}
-		}
+	// 	.product {
+	// 		&__box {
+	// 			margin-top: 5em;
+	// 			display: flex;
+	// 			flex-wrap: wrap;
+	// 			justify-content: center;
+	// 		}
+	// 		&__box-left {
+	// 			margin-top: 3em;
+	// 			margin-bottom: 0;
+	// 			// order: 1;
+	// 		}
+	// 		&__box-middle {
+	// 			margin-left: 4em;
+	// 			margin-right: auto;
+	// 			width: 40%;
+	// 		}
+	// 		&__box-right {
+	// 			margin-top: 0;
+	// 			width: 40%;
+	// 			margin-left: auto;
+	// 			margin-right: 4em;
+	// 		}
+	// 		&__box-last {
+	// 			margin-top: 3em;
+	// 			margin-left: auto;
+	// 		}
+	// 	}
 	}
 	.circles {
 		.circle {
@@ -670,7 +649,7 @@ body {
 
 	.solution {
 		&__box-left {
-			padding-top: 3em;
+			padding-top: 2em;
 		}
 		&__box-right {
 			padding-left: 3em;
@@ -684,7 +663,9 @@ body {
 			line-height: 1.7em;
 		}
 	}
+	
 }
+
 @media (min-width: 1600px) {
 	.product {
 		&__box {
@@ -694,9 +675,7 @@ body {
 			padding: 2em;
 			margin-left: 4em;
 			width: 40%;
-			img {
-				min-height: 548px;
-			}
+			
 		}
 		&__box-middle {
 			padding: 3em;
@@ -726,6 +705,56 @@ body {
 				font-weight: 300;
 				line-height: 1.5em;
 			}
+		}
+	}
+	.solution {
+		&__box {
+			margin-top: 5em;
+			display: flex;
+			margin-bottom: 8em;
+		}
+		&__box-left {
+			margin-bottom: 0;
+			width: 50%;
+			margin-right: 4em;
+		}
+		&__box-right {
+			margin-top: 0;
+			width: 50%;
+			margin-left: 4em;
+		}
+	}
+	.solution-heading {
+		margin-bottom: 0;
+	}
+
+	.product {
+		&__box {
+			margin-top: 5em;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		&__box-left {
+			margin-top: 3em;
+			margin-bottom: 0;
+			// order: 1;
+			height: 590px;
+		}
+		&__box-middle {
+			margin-left: 4em;
+			margin-right: auto;
+			
+		}
+		&__box-right {
+			margin-top: 0;
+			
+			margin-left: auto;
+			margin-right: 4em;
+		}
+		&__box-last {
+			margin-top: 3em;
+			margin-left: auto;
 		}
 	}
 }
