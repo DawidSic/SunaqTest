@@ -630,7 +630,7 @@ body {
 		max-width: 15em;
 		padding: 1.3em 1.5em;
 		margin-left: 2em;
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 	.header {
 		.header-text-block {
@@ -663,6 +663,30 @@ body {
 }
 
 @media (min-width: 1600px) {
+	.nav-D {
+		.logo-name {
+			display: flex;
+		}
+		.logo-D {
+			display: none;
+		}
+		.nav__items-D {
+			margin-right: 4em;
+			font-size: 2.8rem;
+			.nav__item-D {
+				padding: 1.5em 1em 0.5em 1.5em;
+			}
+		}
+	}
+
+	.header {
+		.header-text-block {
+			.head-text {
+				font-size: 4.5rem;
+			}
+		}
+	}
+
 	.product {
 		&__box {
 			justify-content: flex-start;
