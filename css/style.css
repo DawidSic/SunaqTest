@@ -385,7 +385,7 @@ body {
   border-radius: 50%;
   background: transparent;
   color: #fff;
-  border: dashed 4px #fff;
+  border: dashed 2px #fff;
   position: relative;
 }
 .circles .circle p {
