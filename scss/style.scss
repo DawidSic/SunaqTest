@@ -258,7 +258,6 @@ body {
 			p {
 				padding-top: 0.5em;
 			}
-			
 		}
 	}
 }
@@ -396,9 +395,8 @@ body {
 		padding: 1em;
 		background-image: url('../img/TestSUBSolar14.png');
 		background-size: cover;
-	background-position: center;
+		background-position: center;
 		height: 400px;
-
 	}
 	&__box-middle {
 		// background-color: c.$pure-white;
@@ -466,7 +464,6 @@ body {
 }
 .technology {
 	display: flex;
-	
 }
 .text {
 	margin: 2em auto;
@@ -479,7 +476,7 @@ body {
 	.two {
 		margin: 2em auto;
 	}
-	li{
+	li {
 		color: c.$pure-white;
 		font-size: 2.5rem;
 		line-height: 2em;
@@ -552,55 +549,55 @@ body {
 				padding: 0.8em 0.8em 0.5em 0.8em;
 			}
 		}
-	// 	.solution {
-	// 		&__box {
-	// 			margin-top: 5em;
-	// 			display: flex;
-	// 			margin-bottom: 8em;
-	// 		}
-	// 		&__box-left {
-	// 			margin-bottom: 0;
-	// 			width: 50%;
-	// 			margin-right: 4em;
-	// 		}
-	// 		&__box-right {
-	// 			margin-top: 0;
-	// 			width: 50%;
-	// 			margin-left: 4em;
-	// 		}
-	// 	}
-	// 	.solution-heading {
-	// 		margin-bottom: 0;
-	// 	}
+		// 	.solution {
+		// 		&__box {
+		// 			margin-top: 5em;
+		// 			display: flex;
+		// 			margin-bottom: 8em;
+		// 		}
+		// 		&__box-left {
+		// 			margin-bottom: 0;
+		// 			width: 50%;
+		// 			margin-right: 4em;
+		// 		}
+		// 		&__box-right {
+		// 			margin-top: 0;
+		// 			width: 50%;
+		// 			margin-left: 4em;
+		// 		}
+		// 	}
+		// 	.solution-heading {
+		// 		margin-bottom: 0;
+		// 	}
 
-	// 	.product {
-	// 		&__box {
-	// 			margin-top: 5em;
-	// 			display: flex;
-	// 			flex-wrap: wrap;
-	// 			justify-content: center;
-	// 		}
-	// 		&__box-left {
-	// 			margin-top: 3em;
-	// 			margin-bottom: 0;
-	// 			// order: 1;
-	// 		}
-	// 		&__box-middle {
-	// 			margin-left: 4em;
-	// 			margin-right: auto;
-	// 			width: 40%;
-	// 		}
-	// 		&__box-right {
-	// 			margin-top: 0;
-	// 			width: 40%;
-	// 			margin-left: auto;
-	// 			margin-right: 4em;
-	// 		}
-	// 		&__box-last {
-	// 			margin-top: 3em;
-	// 			margin-left: auto;
-	// 		}
-	// 	}
+		// 	.product {
+		// 		&__box {
+		// 			margin-top: 5em;
+		// 			display: flex;
+		// 			flex-wrap: wrap;
+		// 			justify-content: center;
+		// 		}
+		// 		&__box-left {
+		// 			margin-top: 3em;
+		// 			margin-bottom: 0;
+		// 			// order: 1;
+		// 		}
+		// 		&__box-middle {
+		// 			margin-left: 4em;
+		// 			margin-right: auto;
+		// 			width: 40%;
+		// 		}
+		// 		&__box-right {
+		// 			margin-top: 0;
+		// 			width: 40%;
+		// 			margin-left: auto;
+		// 			margin-right: 4em;
+		// 		}
+		// 		&__box-last {
+		// 			margin-top: 3em;
+		// 			margin-left: auto;
+		// 		}
+		// 	}
 	}
 	.circles {
 		.circle {
@@ -663,7 +660,6 @@ body {
 			line-height: 1.7em;
 		}
 	}
-	
 }
 
 @media (min-width: 1600px) {
@@ -675,7 +671,6 @@ body {
 			padding: 2em;
 			margin-left: 4em;
 			width: 40%;
-			
 		}
 		&__box-middle {
 			padding: 3em;
@@ -744,11 +739,10 @@ body {
 		&__box-middle {
 			margin-left: 4em;
 			margin-right: auto;
-			
 		}
 		&__box-right {
 			margin-top: 0;
-			
+
 			margin-left: auto;
 			margin-right: 4em;
 		}
