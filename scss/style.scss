@@ -264,6 +264,7 @@ body {
 
 //SOLUTION
 
+
 .solution-box {
 	border-radius: 8px;
 	font-family: 'Montserrat';
@@ -275,6 +276,16 @@ body {
 		margin-top: 1em;
 		margin-bottom: 4em;
 	}
+	&__box-up {
+		box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
+		// width: 50%;
+		// margin-right: 1em;
+		padding: 2em;
+		padding-top: 2em;
+		// background: c.$dark;
+		background-image: c.$mid-section-card;
+		
+	}
 	&__box-left {
 		box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
 		// width: 50%;
@@ -282,20 +293,20 @@ body {
 		padding: 2em;
 		padding-top: 2em;
 		// background: c.$dark;
-		background-image: c.$mid-section;
+		background-image: c.$mid-section-card;
 	}
 	&__box-right {
 		// width: 50%;
 		margin-top: 2em;
 		padding: 2em;
 		box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
-		background-image: c.$mid-section;
+		background-image: c.$mid-section-card;
 		text-align: center;
 	}
 	&__box-text {
 		color: c.$pure-white;
-		line-height: 2.7rem;
-		font-size: 2.2rem;
+		line-height: 2.3rem;
+		font-size: 1.8rem;
 		margin-top: 0.7em;
 		span {
 			color: c.$pure-white;
@@ -314,11 +325,17 @@ body {
 		}
 	}
 }
+.solution-heading{
+	margin-left: 0.5em;
+}
+.box1{
+	margin-bottom: 2em;
+}
 
 .solution-heading,
 .product-heading {
 	color: c.$pure-white;
-	font-size: 6rem;
+	font-size: 4rem;
 }
 @media (min-width: 768px) {
 	.solution-heading,
@@ -400,7 +417,7 @@ body {
 	}
 	&__box-middle {
 		// background-color: c.$pure-white;
-		background-image: c.$mid-section;
+		background-image: c.$mid-section-card;
 		box-shadow: 5px 10px 5px rgb(0, 0, 0, 0.4);
 		padding: 2em;
 		padding-top: 2em;
@@ -413,12 +430,12 @@ body {
 		margin-top: 2em;
 		padding: 2em;
 		box-shadow: 5px 10px 5px rgb(0, 0, 0, 0.4);
-		background-image: c.$mid-section;
+		background-image: c.$mid-section-card;
 		text-align: center;
 	}
 	&__box-last {
 		// background-color: c.$pure-white;
-		background-image: c.$mid-section;
+		background-image: c.$mid-section-card;
 		box-shadow: 5px 10px 5px rgb(0, 0, 0, 0.4);
 		padding: 2em;
 		padding-top: 2em;
@@ -426,9 +443,9 @@ body {
 		color: c.$pure-white;
 	}
 	&__box-text {
-		line-height: 3rem;
+		line-height: 2.3rem;
 		font-weight: 400;
-		font-size: 2.2rem;
+		font-size: 1.8rem;
 		margin-top: 0.7em;
 		span {
 			color: c.$pure-white;
@@ -446,7 +463,7 @@ body {
 		color: c.$pure-white;
 		line-height: 2.2rem;
 		font-weight: 500;
-		font-size: 2rem;
+		font-size: 1.8rem;
 		li {
 			margin-top: 1em;
 			line-height: 3rem;
@@ -457,7 +474,7 @@ body {
 //TECHNOLOGY
 
 .technology-sec {
-	background-color: #222023;
+	background-color: c.$dark;
 	.tech-head {
 		color: c.$pure-white;
 	}
@@ -469,7 +486,7 @@ body {
 	margin: 2em auto;
 	p {
 		padding: 2em auto;
-		font-size: 2.5rem;
+		font-size: 1.8rem;
 		color: c.$pure-white;
 	}
 
@@ -478,10 +495,46 @@ body {
 	}
 	li {
 		color: c.$pure-white;
-		font-size: 2.5rem;
+		font-size: 1.8rem;
 		line-height: 2em;
 		padding-left: 1em;
+		list-style: none;
 	}
+}
+table {
+	font-size: 1.8rem;
+	color: c.$pure-white;
+	width: 100%;
+	border-collapse: collapse;
+	background: c.$mid-section-card;
+	border-radius: 8px;
+	
+	th {
+		border: 1px solid white;
+		padding: 1em;
+	}
+
+	td {
+		border: 1px solid white;
+		padding: 1em;
+	}
+	.test {
+		width: 70%;
+	}
+	.test1 {
+		width: 30%;
+	}
+	.c1,
+	.c2 {
+		width: 30%;
+	}
+	li {
+		list-style: none;
+		margin-bottom: 1.5rem;
+	}
+}
+.first{
+	min-width: 333px;
 }
 
 @media (min-width: 768px) {
@@ -730,7 +783,7 @@ body {
 		&__box {
 			margin-top: 5em;
 			display: flex;
-			margin-bottom: 8em;
+			margin-bottom: 3em;
 		}
 		&__box-left {
 			margin-bottom: 0;
@@ -774,6 +827,18 @@ body {
 			margin-top: 3em;
 			margin-left: auto;
 		}
+	}
+	.product-heading{
+		margin-left: 2em;
+	}
+	.text{
+		.one,.two,li,p{
+
+			font-size: 2.3rem;
+		}
+	}
+	table{
+		font-size: 2.3rem;
 	}
 }
 @media (min-width: 2000px) {

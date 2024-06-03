@@ -314,23 +314,29 @@ body {
   margin-top: 1em;
   margin-bottom: 4em;
 }
+.solution__box-up {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  padding: 2em;
+  padding-top: 2em;
+  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 180%);
+}
 .solution__box-left {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   padding: 2em;
   padding-top: 2em;
-  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 100%);
+  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 180%);
 }
 .solution__box-right {
   margin-top: 2em;
   padding: 2em;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 100%);
+  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 180%);
   text-align: center;
 }
 .solution__box-text {
   color: #fff;
-  line-height: 2.7rem;
-  font-size: 2.2rem;
+  line-height: 2.3rem;
+  font-size: 1.8rem;
   margin-top: 0.7em;
 }
 .solution__box-text span {
@@ -349,10 +355,18 @@ body {
   line-height: 3rem;
 }
 
+.solution-heading {
+  margin-left: 0.5em;
+}
+
+.box1 {
+  margin-bottom: 2em;
+}
+
 .solution-heading,
 .product-heading {
   color: #fff;
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 @media (min-width: 768px) {
@@ -420,7 +434,7 @@ body {
   height: 400px;
 }
 .product__box-middle {
-  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 100%);
+  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 180%);
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4);
   padding: 2em;
   padding-top: 2em;
@@ -430,11 +444,11 @@ body {
   margin-top: 2em;
   padding: 2em;
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4);
-  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 100%);
+  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 180%);
   text-align: center;
 }
 .product__box-last {
-  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 100%);
+  background-image: linear-gradient(200deg, #164474 0%, #33BAAD 180%);
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4);
   padding: 2em;
   padding-top: 2em;
@@ -442,9 +456,9 @@ body {
   color: #fff;
 }
 .product__box-text {
-  line-height: 3rem;
+  line-height: 2.3rem;
   font-weight: 400;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin-top: 0.7em;
 }
 .product__box-text span {
@@ -461,7 +475,7 @@ body {
   color: #fff;
   line-height: 2.2rem;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .product__box-list li {
   margin-top: 1em;
@@ -469,7 +483,7 @@ body {
 }
 
 .technology-sec {
-  background-color: #222023;
+  background-color: rgb(13, 42, 73);
 }
 .technology-sec .tech-head {
   color: #fff;
@@ -484,7 +498,7 @@ body {
 }
 .text p {
   padding: 2em auto;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   color: #fff;
 }
 .text .two {
@@ -492,9 +506,45 @@ body {
 }
 .text li {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   line-height: 2em;
   padding-left: 1em;
+  list-style: none;
+}
+
+table {
+  font-size: 1.8rem;
+  color: #fff;
+  width: 100%;
+  border-collapse: collapse;
+  background: linear-gradient(200deg, #164474 0%, #33BAAD 180%);
+  border-radius: 8px;
+}
+table th {
+  border: 1px solid white;
+  padding: 1em;
+}
+table td {
+  border: 1px solid white;
+  padding: 1em;
+}
+table .test {
+  width: 70%;
+}
+table .test1 {
+  width: 30%;
+}
+table .c1,
+table .c2 {
+  width: 30%;
+}
+table li {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.first {
+  min-width: 333px;
 }
 
 @media (min-width: 768px) {
@@ -667,7 +717,7 @@ body {
   .solution__box {
     margin-top: 5em;
     display: flex;
-    margin-bottom: 8em;
+    margin-bottom: 3em;
   }
   .solution__box-left {
     margin-bottom: 0;
@@ -705,6 +755,15 @@ body {
   .product__box-last {
     margin-top: 3em;
     margin-left: auto;
+  }
+  .product-heading {
+    margin-left: 2em;
+  }
+  .text .one, .text .two, .text li, .text p {
+    font-size: 2.3rem;
+  }
+  table {
+    font-size: 2.3rem;
   }
 }
 @media (min-width: 2000px) {
